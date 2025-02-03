@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+[data-scroll-container] {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .content {
+    position: relative;
+  }
+  
+  .scroll-element {
+    opacity: 0;
+  }
